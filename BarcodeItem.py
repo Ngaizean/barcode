@@ -13,7 +13,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import black
 from pdf2image import convert_from_bytes
-from pystrich.ean13 import EAN13Encoder
+from Encoder import EAN13Encoder
 
 
 def calculate_barcode_width(style_code):
