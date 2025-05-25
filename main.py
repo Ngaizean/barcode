@@ -22,12 +22,12 @@ barcodes_per_row = 7  # 每行放置的条形码数量
 
 # 设置页面边距
 margin_x = 10  # 左右边距（点）
-margin_y = 15  # 上下边距（点）
+margin_y = 32  # 上下边距（点）
 
 # 计算行距和列距
-row_spacing = barcode_height + 4.5  # 行距：条码高 + 文本间隔
+row_spacing = barcode_height + 5  # 行距：条码高 + 文本间隔
 col_spacing = (width - 2 * margin_x) / barcodes_per_row
-max_items_per_page = barcodes_per_row * 17  # 每页最多 17 行
+max_items_per_page = barcodes_per_row * 16  # 每页最多 16 行
 
 
 
