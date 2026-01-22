@@ -10,7 +10,7 @@ from PyQt5.QtSvg import QSvgRenderer
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.utils import ImageReader
-from BarcodeItem import BarcodeItem
+from .BarcodeItem import BarcodeItem
 from PyQt5.QtGui import QPainter
 
 width, height = A4  # A4: 595 x 842 points

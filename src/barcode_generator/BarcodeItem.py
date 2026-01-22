@@ -13,6 +13,8 @@ from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import black
 from pdf2image import convert_from_bytes
+import sys
+sys.path.append('../..')
 from Encoder import EAN13Encoder
 
 
