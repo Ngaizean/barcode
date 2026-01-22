@@ -1,0 +1,18 @@
+# EAN-13 Barcode Generator Requirements
+
+# GUI Framework
+PyQt5>=5.15.0
+
+# Barcode Generation
+barcode>=0.15.0
+pystrich>=0.10
+
+# PDF Generation
+reportlab>=3.6.0
+pdf2image>=1.16.0
+
+# Image Processing
+Pillow>=8.0.0
+
+# Packaging (for building executable)
+PyInstaller>=4.5
